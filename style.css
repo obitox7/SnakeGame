@@ -58,14 +58,15 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-
+    transform: translatex(50px);
+    transform: translate(0%, 0%);
     width: 20px;
     height: 20px;
     background-color: #43e266;
 }
 .food {
     position: absolute;
-
+    transform: translate(-50%, -50%);
     top: 0px;
     left: 0px;
     width: 20px;
@@ -74,10 +75,9 @@ button {
 }
 .body {
     position: absolute;
-    top: 0;
-    left: 0;
+    transform: translate(0%, 0%);
 
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: #43e266;
 }
